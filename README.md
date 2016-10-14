@@ -42,7 +42,7 @@ Example: http://panel:panel@localhost:25005/ytplayer
 ## How it works ?
 - video audio is downloaded from my server
 - The javascript audio api decode the audio
- -Then display an audio spectrum
+- Then display an audio spectrum
 
 ## Based on
 
