@@ -33,8 +33,11 @@ What things you need to install the script
 - Be sure that ytplayer.js is enabled in phantombot.
 - Launch OBS.
 - On a scene, add a new CRL Browser
-- **Url to type in the CRL Browser settings : http://{panel_user}:{panel_password}@{ipaddress}:{port}/ytplayer**
-  **Ex!: http://panel:panel@localhost:25005/ytplayer**
+- **Url to type in the CRL Browser settings :
+```
+http://{panel_user}:{panel_password}@{ipaddress}:{port}/ytplayer
+Example: http://panel:panel@localhost:25005/ytplayer
+```
 
 ## How it works ?
 - video audio is downloaded from my server
