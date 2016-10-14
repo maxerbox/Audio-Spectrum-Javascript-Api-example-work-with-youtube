@@ -2,6 +2,7 @@
 
 Official forum web page:
 https://community.phantombot.tv/topic/834/ytplayer-audio-spectrum-visualizer-youtube-audio-spectrum-on-your-stream/
+
 ![alt tag](***REMOVED***)
 An audio spectrum on your stream !
 This script allow you to display the audio spectrum from the current music played by phantombot !
@@ -21,7 +22,7 @@ The script support commands like :
 !ytp volume 100
 !ytp pause
 etc...
-'''
+```
 
 ### Prerequisities
 
