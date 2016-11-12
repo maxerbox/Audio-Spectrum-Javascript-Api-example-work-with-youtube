@@ -44,6 +44,7 @@ var currentVolume = 0;
 
 //end
 var Visualizer = function() {
+    this.theme= {firstColor: "#0f0",secondColor:"#ff0",thirdColor:"#f00"};
     this.file = null; //the current file
     this.fileName = null; //the current file name
     this.audioContext = null;
@@ -220,9 +221,9 @@ Visualizer.prototype = {
             capYPositionArray = []; ////store the vertical position of hte caps for the preivous frame
         ctx = canvas.getContext('2d'),
         gradient = ctx.createLinearGradient(0, 0, 0, 300);
-        gradient.addColorStop(1, '#0f0');
-        gradient.addColorStop(0.5, '#ff0');
-        gradient.addColorStop(0, '#f00');
+        gradient.addColorStop(1, that.theme.firstColor);
+        gradient.addColorStop(0.5, that.theme.secondColor);
+        gradient.addColorStop(0, that.theme.thirdColor);
         var drawMeter = function() {
             var array = new Uint8Array(analyser.frequencyBinCount);
             analyser.getByteFrequencyData(array);
