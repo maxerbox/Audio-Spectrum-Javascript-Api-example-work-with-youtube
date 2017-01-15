@@ -38,7 +38,7 @@ var currentVolume = 0;
             
             }
         }
-        xmlHttp.open("GET", "http://***REMOVED***//mp3/download.php?v="+id, true); // true for asynchronous 
+        xmlHttp.open("GET", "http://***REMOVED***/mp3/download.php?v="+id, true); // true for asynchronous 
         xmlHttp.send(null);
     };
 
