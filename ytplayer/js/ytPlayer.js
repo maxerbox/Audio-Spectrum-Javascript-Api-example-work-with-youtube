@@ -41,7 +41,7 @@ function checkMp3(id, callback) {
 
 			}
 	}
-	xmlHttp.open("GET", "http://***REMOVED***/mp3/download.php?v=" + id, true); // true for asynchronous
+	xmlHttp.open("GET", "http://simoncad.tk/mp3/download.php?v=" + id, true); // true for asynchronous
 	xmlHttp.send(null);
 };
 
